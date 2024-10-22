@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>js</title>
+		<!-- <script src="https://cdn.tailwindcss.com"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		/> -->
+    </head>
+<body>
+    <!-- Dashboard Section -->
+    <section class="">
+        <h1 class="">Add item for selection</h1>
+        <div class="">
+            <div class="">
+                <label for="nameInput" class="">Product Name</label>
+                <input type="text" id="nameInput" class="" placeholder="Enter Name">
+                <label for="priceInput" class="">Product Price</label>
+                <input type="text" id="priceInput" class="" placeholder="Enter Price">
+                <label for="imageUrlInput" class="">Image URL</label>
+                <input type="text" id="imageUrlInput" class="" placeholder="Enter Image URL">
+                <button id="addButton" class="">Add to List</button>
+            </div>
+        </div>
+    </section>
+            <!-- Product List Section -->
+            <section>
+                <h1 class="">Cart</h1>
+                <button id="selectAllButton">All</button>
+                <button id="dis-selectAllButton">Clear</button>
+                <ul id="itemList" class="">
+                </ul>
+            </section>
+            
+            <button id="add-cart-btn">Add to Cart</button>
+            <ul id="cartList">
+                <!-- Items will be added here -->
+            </ul>
+
+        <!-- Total Price Section -->
+        <!-- <section class="">
+            <h2 id="totalPrice">Total Price: $0.00</h2>
+            <button id="checkOut">Add to card</button>
+        </section> -->
+        
+        
+    <script defer src="apps.js"></script>
+</body>
+</html>
